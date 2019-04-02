@@ -9,6 +9,7 @@
   height: 500px;
   margin: 0 auto;
   background-color: #ECF1F2;
+
 }
 .squer{
   position: absolute;
@@ -18,11 +19,11 @@
   font-size: 22px;
   font-weight: bold;
   line-height: 100px;
+
 }
 .b1{
   top: 40px;
-  left: 50%;
-  margin-left: -50px;
+  left: 200px;
   background-color: #FFEFD3;
   z-index: 0;
 }
@@ -33,8 +34,7 @@
   z-index: 1;
 }
 .b3{
-  top: 50%;
-  margin-top: -50px;
+  top: 200px;
   right: 40px;
   background-color: #D0ECEA;
   z-index: 2;
@@ -58,8 +58,7 @@
   z-index: 5;
 }
 .b7{
-  top: 50%;
-  margin-top: -50px;
+  top: 200px;
   left: 40px;
   background-color: #DEAE70;
   z-index: 6;

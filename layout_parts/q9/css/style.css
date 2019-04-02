@@ -6,12 +6,13 @@
 .imgcontainer{
   position: relative;
   width: 500px;
-  margin: 0 auto -3px;
+  margin: 0 auto;
   overflow: hidden;
 }
 .carimg{
   z-index: 0;
   transition: transform 0.5s linear 0s;
+  vertical-align: top;
 }
 .imgcontainer:hover .carimg{
   transform: scale(1.5);

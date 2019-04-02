@@ -6,6 +6,7 @@
 .table{
   width: 100%;
   text-align: center;
+  table-layout: fixed;
 }
 .rows td{
   height: 45px;
@@ -30,6 +31,6 @@
   vertical-align: middle;
 }
 
-tfoot .rows{
+.footer .rows{
   border-top: dashed 2px #000;
 }
