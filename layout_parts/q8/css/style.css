@@ -3,3 +3,244 @@
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
+.wrapper_q8{
+  text-align: center;
+}
+.sm{
+  display: inline-block;
+  vertical-align: middle;
+  width: 60px;
+  font-size: 16px;
+  height: 26px;
+  line-height: 26px;
+  border-radius: 3px;
+  padding: 0 15px;
+  margin: 0 10px;
+}
+.mid{
+  display: inline-block;
+  width: 80px;
+  margin: 0 10px;
+  font-size: 20px;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 20px;
+  border-radius: 5px;
+}
+.lg{
+  display: inline-block;
+  margin: 0 10px;
+  width: 100px;
+  font-size: 24px;
+  height: 38px;
+  line-height: 38px;
+  padding: 0 25px;
+  border-radius: 7px;
+}
+.com_color{
+  background-color: #00bcd4;
+  color: white;
+}
+.err_color{
+  background-color: #ff4081;
+  color: white;
+}
+.dis_color{
+  background-color: #e5e5e5;
+  color: white;
+}
+.shad_color{
+  background-color: #FFF;
+  color: #222;
+  box-shadow: 0 1px 6px rgba(0,0,0,.12),
+          0 1px 4px rgba(0,0,0,.12);
+}
+.container_q8{
+  position: relative;
+  margin: 0 auto;
+  width: 740px;
+  height: 370px;
+  background-color: #ECF1F2;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.hr{
+  position: absolute;
+  width: 540px;
+  height: 15px;
+  top: 16px;
+  right: 20px;
+  border-bottom: solid 1px #CCCCCC;
+}
+.require{
+  color: #f9222d;
+}
+.container_q8 h2{
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0;
+}
+.focusstate:focus{
+  outline: none;
+  box-shadow: 0 0 4px 1px #05BBD4;
+}
+.lwrapper{
+  float: left;
+  text-align:right;
+  width: 40%;
+  padding-top: 25px;
+  box-sizing: border-box;
+}
+.rwrapper{
+  float: left;
+  width: 60%;
+  padding: 25px;
+  box-sizing: border-box;
+}
+.mb20{
+  margin-bottom: 20px;
+}
+.ml40{
+  margin-left: 40px;
+}
+.mr40{
+  margin-right: 40px;
+}
+.text_f{
+  width: 180px;
+  height: 25px;
+  margin-left: 30px;
+  border-radius: 3px;
+  border-style: none;
+}
+.sex_f{
+  margin-right: 60px;
+}
+.sbtn{
+  outline: none;
+  width: 50px;
+  height: 27px;
+  border-radius: 5px;
+  border-style: none;
+  background-color: #05BBD4;
+  color: #fff;
+  font-size: 16px;
+}
+.sbtn:active{
+  background-color: #fff;
+  color: #05BBD4;
+}
+input[type=radio]{
+  display: none;
+  margin-left: 40px;
+}
+.radiolabel{
+  position: relative;
+  margin-left: 27px;
+}
+.radiolabel:before{
+  display: block;
+  position: absolute;
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  top: 4px;
+  left: -18px;
+  background-color: #00BCD4;
+  opacity: 0;
+  z-index: 4;
+}
+.radiolabel:after{
+  display: block;
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 0px;
+  left: -22px;
+  box-sizing: border-box;
+  border: solid 1px #ccc;
+  background-color: #fff;
+  border-radius: 8px;
+  z-index: 3;
+}
+input[type=radio]:checked + .radiolabel:before{
+  opacity: 1;
+}
+input[type=checkbox]{
+  display: none;
+}
+.checklabel{
+  position: relative;
+}
+.checklabel:before{
+  display: block;
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 16px;
+  border-bottom: 3px solid #00BCD4;
+  border-right: 3px solid #00BCD4;
+  top: -6px;
+  left: -21px;
+  transform: rotate(45deg);
+  opacity: 0;
+  z-index: 1;
+}
+.checklabel:after{
+  display: block;
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border: solid 1px #ccc;
+  background-color: #fff;
+  top: 0px;
+  left: -26px;
+  z-index: 0;
+}
+input[type=checkbox]:checked + .checklabel:before{
+  opacity: 1;
+}
+.myselect{
+  position: relative;
+  outline: none;
+  width: 180px;
+  height: 25px;
+  padding-left: 5px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: #fff;
+  border-style: none;
+  appearance: none;
+  cursor: pointer;
+  z-index: 0;
+}
+.sellabel{
+
+  position: relative;
+}
+.sellabel:after{
+  display: block;
+  position: absolute;
+  content: "";
+  width: 12px;
+  height: 12px;
+  top: 0px;
+  right: 16px;
+  transform: rotate(45deg);
+  background-color: white;
+  border-bottom: solid 2px #EDEDED;
+  border-right: solid 2px #EDEDED;
+
+  z-index:12;
+}
+
+textarea{
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  resize: none;
+  border-style: none;
+}

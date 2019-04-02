@@ -3,3 +3,33 @@
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
+.table{
+  width: 100%;
+  text-align: center;
+}
+.rows td{
+  height: 45px;
+  color: #000;
+  font-size: 16px;
+  line-height: 22px;
+  border: solid 1px #DEDEDE;
+  vertical-align: middle;
+  background-color: #ECF1F2;
+}
+.rows:nth-child(2n) td{
+  background-color: #fff;
+}
+
+.rows th{
+  height: 45px;
+  font-size: 18px;
+  line-height: 26px;
+  border: solid 1px #DEDEDE;
+  background-color: #2144AA;
+  color: #FFF;
+  vertical-align: middle;
+}
+
+tfoot .rows{
+  border-top: dashed 2px #000;
+}

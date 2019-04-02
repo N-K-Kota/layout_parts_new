@@ -3,3 +3,79 @@
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
+.floatbox{
+  float: left;
+  width: 225px;
+  box-sizing: border-box;
+  font-size: 16px;
+  margin-right: 50px;
+  border-style: none;
+}
+.floatbox:last-child{
+  margin-right: 0;
+}
+.floatwrapper:after{
+  display: block;
+  content: "";
+  clear: both;
+}
+.table{
+  display: table;
+}
+.cell{
+  display: table-cell;
+  width: 225px;
+  vertical-align: middle;
+}
+.cell:last-child{
+  padding-left: 50px;
+}
+.iwrapper{
+  width: 540px;
+  height: 250px;
+  font-size: 0;
+  border-style: none;
+}
+.ibox{
+  display: inline-block;
+  width: 225px;
+  box-sizing: border-box;
+  border-style: none;
+  margin-right: 50px;
+  font-size: 16px;
+  vertical-align: middle;
+}
+.ibox:last-child{
+  border-style: none;
+  margin-right: 0;
+}
+.flexcontainer{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.flexitem{
+  box-sizing: border-box;
+  width: 225px;
+  padding: 20px;
+}
+.wrapper_q7{
+  overflow: hidden;
+  vertical-align: top;
+  font-size: 0;
+}
+.fixbox_q7{
+  display: inline-block;
+  width: 300px;
+  box-sizing: border-box;
+  font-size: 16px;
+  vertical-align: top;
+}
+.varbox_q7{
+  display: inline-block;
+  width: 100%;
+  padding-left: 350px;
+  margin-left: -300px;
+  font-size: 16px;
+  box-sizing: border-box;
+}

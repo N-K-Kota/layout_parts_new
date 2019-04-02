@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -30,28 +30,28 @@
           <!-- 回答はここに書いてね -->
           <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
           <!-- 新たにタグは追加しなくてもできます。 -->
-          <div class="q8 q8--btn">
+          <div class="q8 q8--btn wrapper_q8">
             <p class="q8__title">ー small ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+            <div class="sm com_color">common</div>
+            <div class="sm err_color">error</div>
+            <div class="sm dis_color">disabled</div>
+            <div class="sm shad_color">shadow</div>
           </div>
 
-          <div class="q8 q8--btn">
+          <div class="q8 q8--btn wrapper_q8">
             <p class="q8__title">ー middle ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+            <div class="mid com_color">common</div>
+            <div class="mid err_color">error</div>
+            <div class="mid dis_color">disabled</div>
+            <div class="mid shad_color">shadow</div>
           </div>
 
-          <div class="q8 q8--btn">
+          <div class="q8 q8--btn wrapper_q8">
             <p class="q8__title">ー large ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+            <div class="lg com_color">common</div>
+            <div class="lg err_color">error</div>
+            <div class="lg dis_color">disabled</div>
+            <div class="lg shad_color">shadow</div>
           </div>
           <!-- 回答はここに書いてね -->
         </div>
@@ -98,8 +98,41 @@
           -->
           <!-- 回答はここに書いてね -->
           <!-- すでについてるクラスにはstyleを指定しない。styleを付ける場合は自分で新たにクラスをつけること -->
-          <div class="q8">
-            
+          <div class="q8 container_q8">
+            <form acition="file:///Users/kotanakamura/Desktop/gizumo/layout_parts_new.git/layout_parts/q8/index.html" method="get" >
+              <h2>Form Exercise</h2><div class="hr"></div>
+              <div class="lwrapper">
+                <p class="name_f mb20">
+                  <label>名前<span class="require">*</span><input type="text" class="text_f focusstate" required></label>
+                </p>
+                <p class="sex_f mb20">
+                  <span class="mr40">性別</span><input type="radio" value="male" name="sex" id="man"><label for="man" class="radiolabel">男性</label><input type="radio" value="female" name="sex" id="woman"><label for="woman" class="radiolabel">女性</label>
+                </p>
+                <p class="shusin_f mb20">
+                    <label class="sellabel">出身<select class="myselect ml40">
+                    <option name="shusin" value="tokyo">東京</option>
+                    <option name="shusin" value="saitama">埼玉</option>
+                    <option name="shusin" value="tiba">千葉</option>
+                    <option name="shusin" value="kanagawa">神奈川</option>
+                    </select></label>
+                </p>
+                <p class="mail_f mb20">
+                  <label>Eメール<span class="require">*</span><input type="email" name="email" placeholder="ex)hoge@gmail.com" class="text_f focusstate" required></label>
+                </p>
+                <p class="phone_f mb20">
+                  <label>電話番号<input type="tel" name="phonenumber" placeholder="ex)08012345678" class="text_f focusstate"></label>
+                </p>
+                <p class="age_f mb20">
+                  <input type="checkbox" name="agecheck" value="chekcked" id="age"><label for="age" class="checklabel">20歳以上です</label>
+                </p>
+                <p>
+                  <input type="submit" value="送信" class="sbtn">
+                </p>
+              </div>
+              <div class="rwrapper">
+                <textarea placeholder="何かあれば入力してください" class="focusstate" name="remarks" rows="10" cols="30"></textarea>
+              </div>
+            </form>
           </div>
           <!-- 回答はここに書いてね -->
         </div>

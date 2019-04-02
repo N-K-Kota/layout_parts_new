@@ -3,3 +3,30 @@
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
+.container{
+  padding: 20px;
+  width: 940px;
+  margin: 0 auto;
+  box-sizing:border-box;
+  background-color: #EFF3F4;
+}
+.container:after{
+  display: block;
+  content: "";
+  clear: both;
+}
+  .content_box{
+    float: left;
+    width: 230px;
+    padding: 20px;
+    margin-left: 20px;
+    background-color: #3274AE;
+  }
+  .content_box:first-child{
+    margin-left: 0;
+  }
+    .content_text{
+      padding: 20px;
+      border:solid 10px #022236;
+      background-color: #EAF4FF;
+    }
